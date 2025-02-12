@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background: #222222;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.title {
+  color: rgb(0, 216, 255);
+}
+
+main {
+  position: relative;
+  background-color: rgb(40, 45, 53);
+  color: white;
+  padding: 20px 10px;
+  height: 50vh;
+  font-family: sans-serif;
+}
+.main_header {
+  margin: 30px 5px;
+}
+.main_bg {
+  width: 20rem;
+  position: absolute;
+  right: -150px;
+  top: 40px;
+}
+main ul {
+  margin: 20px 40px;
+}
+main ul li {
+  margin: 10px 0;
+}
+
+main ul li::marker {
+  color: rgb(0, 216, 255);
+  font-size: 25px;
+}

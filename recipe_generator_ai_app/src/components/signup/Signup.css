@@ -1,0 +1,30 @@
+.signup {
+  background: gray;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+.signup form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+form input,
+select {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+form button {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
