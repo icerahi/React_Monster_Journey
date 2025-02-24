@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgb(197, 15, 197);
+  color: white;
+  padding: 10px;
+}
+header h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+main .input_container {
+  display: flex;
+  justify-content: space-between;
+}
+main .input_container input {
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px;
+}
+main .input_container label {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .img_container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+form button {
+  background-color: rgb(165, 78, 165);
+  padding: 15px 10px;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  margin: 10px auto;
+  border-radius: 10px;
+  font-family: sans-serif;
+  width: 50%;
+}
+
+.img_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .img_container .topText {
+  position: absolute;
+  /* top: 0; */
+  text-align: center;
+  /* margin-block: 15px; */
+  padding-inline: 5px;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+main .img_container .bottomText {
+  position: absolute;
+  /* bottom: 0; */
+  /* text-align: center; */
+  /* margin-block: 15px; */
+  padding-inline: 5px;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}

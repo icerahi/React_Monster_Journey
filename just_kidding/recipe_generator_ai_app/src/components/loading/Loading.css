@@ -1,0 +1,20 @@
+.loader {
+  width: 40px;
+  height: 40px;
+  background: darkblue;
+  animation-name: test;
+  animation: 5s;
+  animation-delay: 3s;
+}
+
+@keyframes test {
+  0% {
+    transform: scale(2);
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(2);
+  }
+}

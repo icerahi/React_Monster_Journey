@@ -1,0 +1,37 @@
+/* #root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.todo-container {
+  background: white;
+  width: 40%;
+  padding: 1.5rem;
+}
+.todo-container input {
+  border: none;
+  background: whitesmoke;
+  font-size: 1rem;
+  padding: 10px;
+  width: 70%;
+  margin: 10px;
+  outline: none;
+}
+
+.todo-container button {
+  border: none;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.726);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+ul li {
+  list-style: none;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+} */
